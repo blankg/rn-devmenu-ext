@@ -33,7 +33,7 @@ export default class CustomDevMenuView extends Component {
   }
 
   render() {
-    return __DEV__ ? (
+    return (
       <Modal
         animationType="slide"
         transparent={false}
@@ -44,7 +44,7 @@ export default class CustomDevMenuView extends Component {
           <Text style={styles.welcome}>Hello custom dev menu!</Text>
         </View>
       </Modal>
-    ) : null;
+    );
   }
 }
 
